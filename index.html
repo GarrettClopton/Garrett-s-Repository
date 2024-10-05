@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Rad 90s Blog</title>
+    <style>
+        body {
+            background-color: #00FFFF;
+            color: #FF00FF;
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+        }
+
+        h1 {
+            background-color: #FF0000;
+            color: yellow;
+            font-size: 3em;
+            padding: 20px;
+            border: 5px solid green;
+        }
+
+        marquee {
+            color: #0000FF;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: #FFFF00;
+        }
+
+        .container {
+            margin: 50px;
+            border: 10px dashed #FF00FF;
+            padding: 20px;
+            background-color: #FFFF00;
+        }
+
+        .container img {
+            width: 300px;
+            height: auto;
+            border: 5px solid #0000FF;
+        }
+
+        a {
+            color: #FF00FF;
+            text-decoration: underline;
+        }
+
+        .visitor-counter {
+            font-size: 2em;
+            background-color: #00FF00;
+            padding: 10px;
+            margin-top: 20px;
+            border: 5px solid #FF0000;
+        }
+
+        .blink {
+            animation: blink 1s step-start infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>WELCOME TO MY RADICAL 90s BLOG</h1>
+
+    <marquee>Hey, welcome to my totally awesome page! Check it out, dudes!</marquee>
+
+    <div class="container">
+        <h2>Check out my fave GIFs:</h2>
+        <img src="https://media.giphy.com/media/Ll2fajzk9DgaY/giphy.gif" alt="Dancing Baby GIF">
+        <img src="https://media.giphy.com/media/IwAZ6dvvvaTtdI8SD5/giphy.gif" alt="90s Animation GIF">
+        <p>Totally tubular, right?</p>
+    </div>
+
+    <div class="container">
+        <h2>My Top 5 Favorite Websites!</h2>
+        <ul>
+            <li><a href="https://www.coolmathgames.com" target="_blank">Cool Math Games</a></li>
+            <li><a href="https://www.neopets.com" target="_blank">Neopets</a></li>
+            <li><a href="https://www.addictinggames.com" target="_blank">Addicting Games</a></li>
+            <li><a href="https://www.lunapic.com" target="_blank">LunaPic Image Editor</a></li>
+            <li><a href="https://www.miniclip.com" target="_blank">MiniClip Games</a></li>
+        </ul>
+    </div>
+
+    <div class="visitor-counter blink">
+        You are visitor # <strong>000123</strong>!
+    </div>
+
+    <p>&copy; 1998-2024 by Me. <br> Sign my guestbook!</p>
+</body>
+
+</html>
